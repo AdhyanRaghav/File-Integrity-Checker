@@ -100,3 +100,7 @@ def main():
     elif choice == "3":
         print("👋 Exiting program.")
         exit()
+
+        print("❌ Invalid input. Please enter 1, 2, or 3.")
+
+
