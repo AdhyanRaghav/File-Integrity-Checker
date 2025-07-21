@@ -60,4 +60,9 @@ def check_integrity(baseline_file="hashes.json"):
         print("❌ Baseline file not found. Please create one first.")
         return
 
+    for file_path, saved_hash in old_hashes.items():
+        if not os.path.exists(file_path):
+            print(f"⚠️  {file_path} is MISSING!")
+            continue
+
     print("🔍 Checking integrity of files...\n")
