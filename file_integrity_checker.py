@@ -31,3 +31,10 @@ def create_baseline(file_list, output_file="hashes.json"):
         return
 
     hashes = {}
+
+    for file_path in file_list:
+        if os.path.exists(file_path):
+            file_hash = calculate_hash(file_path)
+            hashes[file_path] = file_hash
+        else:
+            print(f"⚠️  File not found: {file_path}")
