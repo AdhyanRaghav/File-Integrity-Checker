@@ -75,3 +75,9 @@ def check_integrity(baseline_file="hashes.json"):
         else:
             print(f"❌ {file_path} has been CHANGED!")
 
+
+# ---------------------------------------------------
+# Function: main
+# Purpose : Show menu to the user and call appropriate functions
+# ---------------------------------------------------
+def main():
