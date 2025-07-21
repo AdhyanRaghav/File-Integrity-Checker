@@ -28,3 +28,24 @@ A simple Python project to monitor and verify the integrity of important files u
 
 ```bash
 python file_integrity_checker.py
+```
+
+🧪 Example Usage
+
+Enter choice (1/2/3): 1
+Enter file names (comma-separated): important.txt, report.pdf
+✅ Baseline saved
+
+Enter choice (1/2/3): 2
+❌ important.txt has been CHANGED!
+✅ report.pdf is OK
+
+📂 Project Structure
+
+File-Integrity-Checker/
+│
+├── file_integrity_checker.py   # Main script
+├── hashes.json                 # (Auto-generated after baseline)
+├── README.md                   # Project guide
+└── important.txt               # Sample test file
+
