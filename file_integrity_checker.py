@@ -55,3 +55,9 @@ def check_integrity(baseline_file="hashes.json"):
         # Load the saved baseline hash values
         with open(baseline_file, "r") as f:
             old_hashes = json.load(f)
+
+  except FileNotFoundError:
+        print("❌ Baseline file not found. Please create one first.")
+        return
+
+    print("🔍 Checking integrity of files...\n")
