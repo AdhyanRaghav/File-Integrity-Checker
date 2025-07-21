@@ -27,3 +27,5 @@ def calculate_hash(file_path):
 def create_baseline(file_list, output_file="hashes.json"):
     # Prevent accidentally overwriting an existing baseline
     if os.path.exists(output_file):
+         print(f"⚠️  Baseline file '{output_file}' already exists.")
+        return
