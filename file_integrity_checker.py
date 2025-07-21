@@ -81,3 +81,9 @@ def check_integrity(baseline_file="hashes.json"):
 # Purpose : Show menu to the user and call appropriate functions
 # ---------------------------------------------------
 def main():
+  print("=== File Integrity Checker ===")
+    print("1. Create Baseline Hashes")
+    print("2. Check File Integrity")
+    print("3. Exit")
+
+    choice = input("Enter choice (1/2/3): ")
