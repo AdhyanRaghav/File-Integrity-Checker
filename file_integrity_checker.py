@@ -38,3 +38,9 @@ def create_baseline(file_list, output_file="hashes.json"):
             hashes[file_path] = file_hash
         else:
             print(f"⚠️  File not found: {file_path}")
+
+ # Save the hashes dictionary to a JSON file
+    with open(output_file, "w") as f:
+        json.dump(hashes, f, indent=4)
+
+    print(f"\n✅ Baseline hash values saved in '{output_file}'.")
