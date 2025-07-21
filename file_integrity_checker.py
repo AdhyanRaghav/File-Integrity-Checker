@@ -44,3 +44,8 @@ def create_baseline(file_list, output_file="hashes.json"):
         json.dump(hashes, f, indent=4)
 
     print(f"\n✅ Baseline hash values saved in '{output_file}'.")
+
+# ---------------------------------------------------
+# Function: check_integrity
+# Purpose : To compare current file hashes with baseline to detect tampering
+# ---------------------------------------------------
