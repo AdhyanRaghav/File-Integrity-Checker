@@ -19,3 +19,5 @@ def calculate_hash(file_path):
 
     return sha256.hexdigest()            # Return the final hash string
 
+# ---------------------------------------------------
+# Function: create_baseline
