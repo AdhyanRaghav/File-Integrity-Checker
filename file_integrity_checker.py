@@ -66,3 +66,7 @@ def check_integrity(baseline_file="hashes.json"):
             continue
 
     print("🔍 Checking integrity of files...\n")
+
+       current_hash = calculate_hash(file_path)
+
+        if current_hash == saved_hash:
