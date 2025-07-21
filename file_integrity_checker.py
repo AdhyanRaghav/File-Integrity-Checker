@@ -70,3 +70,8 @@ def check_integrity(baseline_file="hashes.json"):
        current_hash = calculate_hash(file_path)
 
         if current_hash == saved_hash:
+
+                   print(f"✅ {file_path} is OK (unchanged).")
+        else:
+            print(f"❌ {file_path} has been CHANGED!")
+
