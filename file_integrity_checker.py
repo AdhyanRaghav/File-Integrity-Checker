@@ -87,3 +87,9 @@ def main():
     print("3. Exit")
 
     choice = input("Enter choice (1/2/3): ")
+
+    if choice == "1":
+        # Ask user for comma-separated file names
+        files = input("Enter file names (comma-separated, eg- test.txt,notes.txt): ")
+        file_list = [file.strip() for file in files.split(",")]
+        create_baseline(file_list)
