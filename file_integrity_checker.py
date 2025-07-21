@@ -21,3 +21,5 @@ def calculate_hash(file_path):
 
 # ---------------------------------------------------
 # Function: create_baseline
+# Purpose : To create a JSON file with hash values of important files
+# ---------------------------------------------------
