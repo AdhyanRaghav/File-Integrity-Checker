@@ -103,4 +103,7 @@ def main():
 
         print("❌ Invalid input. Please enter 1, 2, or 3.")
 
-
+# ---------------------------------------------------
+# Entry point of the program
+# Keeps running until user exits
+# ---------------------------------------------------
