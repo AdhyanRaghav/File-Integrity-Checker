@@ -95,21 +95,6 @@ Enter choice (1/2/3): 2
 
 ---
 
-## ✅ Task Status
-
-- [x] Task 1: File Integrity Checker ✅  
-- [ ] Task 2: *(Pending)*  
-- [ ] Task 3: *(Pending)*  
-- [ ] Task 4: *(Pending)*  
-
----
-
-## 🏁 Internship Goal
-
-Complete all 4 tasks and publish them on GitHub to qualify for the **completion certificate** on internship end date.
-
----
-
 ## 👨‍💻 Author
 
 **Adhyan Raghav**  
