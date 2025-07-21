@@ -49,3 +49,9 @@ def create_baseline(file_list, output_file="hashes.json"):
 # Function: check_integrity
 # Purpose : To compare current file hashes with baseline to detect tampering
 # ---------------------------------------------------
+
+def check_integrity(baseline_file="hashes.json"):
+    try:
+        # Load the saved baseline hash values
+        with open(baseline_file, "r") as f:
+            old_hashes = json.load(f)
