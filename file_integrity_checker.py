@@ -29,3 +29,5 @@ def create_baseline(file_list, output_file="hashes.json"):
     if os.path.exists(output_file):
          print(f"⚠️  Baseline file '{output_file}' already exists.")
         return
+
+    hashes = {}
