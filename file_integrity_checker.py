@@ -107,3 +107,8 @@ def main():
 # Entry point of the program
 # Keeps running until user exits
 # ---------------------------------------------------
+
+if __name__ == "__main__":
+    while True:
+        main()
+        print("\n---------------------------\n")
