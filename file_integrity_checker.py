@@ -93,3 +93,10 @@ def main():
         files = input("Enter file names (comma-separated, eg- test.txt,notes.txt): ")
         file_list = [file.strip() for file in files.split(",")]
         create_baseline(file_list)
+
+    elif choice == "2":
+        check_integrity()
+
+    elif choice == "3":
+        print("👋 Exiting program.")
+        exit()
